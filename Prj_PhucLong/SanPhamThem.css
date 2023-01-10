@@ -1,0 +1,104 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/Bannerrrrr.jpg");
+}
+form.main-box {
+    display: grid;
+}
+
+.main-title {
+    place-self: center;
+}
+
+.search-box {
+    place-self: center;
+}
+
+.main-content {
+    place-self: center;
+}
+
+.main-title {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.table-hd {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+input.search-input {
+    width: 353px;
+}
+button.table-btn
+{
+    width: 393px;
+}
+input.table-input-id {
+    margin-left: 18px;
+    width: 500px;
+}
+input.table-input-tsp
+{
+    width: 500px;
+}
+input.table-input-gia {
+    margin-left: 48px;
+    width: 500px;
+}
+
+input.table-input-size {
+    margin-left: 123px;
+    width: 500px;
+}
+
+input.table-input-sl {
+    margin-left: 55px;
+    width: 500px;
+}
+.table-i {
+    color: wheat;
+}
+
+img.table-img {
+    width: 150px;
+    
+    height: 150px;
+}
+.bot
+{
+    display: grid;
+    border: 2px solid rgb(0, 0, 0);
+}
+.mini
+{
+    display: flex;
+    width: 1200px;
+    margin-bottom: 50px;
+}
+.table-i {
+    margin-left: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+button.table-add {
+    margin-left: 69px;
+    width: 500px;
+}
+
+
+.mini {
+    margin-top: 45px;
+}
+.table-them
+{
+    display: flex;
+}
+button.table-btn {
+    width: 500px;
+    margin-left: -34px;
+    margin-top: 7px;
+}

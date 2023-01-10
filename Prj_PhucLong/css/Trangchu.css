@@ -1,0 +1,416 @@
+body
+{
+    font-size: 14px;
+    color: black;
+    line-height: 1.4;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cabin, sans-serif;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    margin-bottom :10pt;
+}
+
+header {
+    display: flex;
+    padding: 12px 50px;
+    height: 70px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    z-index:9999;
+}
+
+header.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.logo {
+    flex: 1;
+    margin-top: 400pt;
+}
+
+.phaiTren {
+    
+    display: flex;
+    margin-right: 300px;
+    margin-left: 400pt;
+    
+}
+
+.anh {
+    width: 157px;
+    height: 40px;
+    margin-left: 330px;
+    margin-top: 16px;
+}
+
+.Anhlogo {
+    width: 70px;
+    height: 50px;
+    margin-left: 333px;
+}
+.DangNhap {
+    display:block;
+    font-size: 15px; 
+    text-decoration: none;
+    margin-left: 10px;
+    white-space: nowrap;
+    margin-top: 9px;
+    color: black;
+}
+
+.VNhEN{
+    display: block;
+    font-size: 14px;
+    margin-left: 7px;
+    white-space: nowrap;
+    margin-top: 9px;
+}
+.btnGioHang {
+    display:flex;
+    width: 80px;
+    height: 31px;
+    color: green;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: green ;
+    background-color: transparent;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-left: 9px;
+    text-align: center; 
+    line-height: 30px;
+    font-size: small;
+}
+
+.ListTrang {
+    flex: 3;
+    display: flex;
+    margin-top: 200px;
+    margin-right: 400px;
+}
+
+.ListTrang>li {
+    padding: 0 12px;
+}
+
+.slider {
+    /*width: 800px;*/
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.slides {
+    width: 500%;
+    height: 412px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.5s;
+}
+
+.slide img {
+    width: 100%;
+    height: 523px;
+}
+
+
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    
+}
+
+.manual-btn {
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: transparent;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+
+
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 476px;
+    margin-left: 500px;
+}
+
+.navigation-auto div {
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background: white;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background: white;
+}
+
+.AnhTra {
+    width: 530px;
+    height: 530px;
+    margin-top: 100pt;
+    margin-left: 300pt;
+}
+.ThongTinTra{
+    margin-left: 800pt;
+    margin-top: -340pt;
+    width: 420px;
+    word-wrap: break-word;
+}
+
+.title {
+    line-height: normal;
+    margin: 0 0 50px;
+    color: #0C713D;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.btn1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 6px;
+    border-width: 1px;
+    color: white;
+    padding: 12px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 10pt;
+}
+
+.btn1 {
+    background-color: white; 
+    color: #4CAF50; 
+    border: 2px solid #4CAF50;
+  }
+
+.btn1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.AnhNVien {
+    width: 320px;
+    height: 475px;
+    margin-top: 129pt;
+    margin-left: 712pt;
+}
+
+.ThongTinNVien{
+    margin-left: 301pt;
+    margin-top: -340pt;
+    width: 480px;
+    word-wrap: break-word;
+}
+
+.CuaHang{
+    background-color: #0C713D ;
+    width: 100%;
+    height: 500px;
+    margin-top: 200pt;
+}
+
+.TongItem{
+    display: flex;
+    margin-left: 40pt;
+    margin-top: 50px;
+    color:white;
+}
+.TitleCHang{
+    font: 2.8125rem/3.375rem 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: larger;
+    color: #ffffff;
+}
+
+.Dia{
+    margin-top: 50pt;
+}
+.btn2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 10pt;
+}
+
+.btn2 {
+    background-color: #0C713D; 
+    color: #ffffff; 
+    border: 2px solid #ffffff;
+  }
+
+.btn2:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.bottom
+{
+  display: flex;
+}
+.bottrai
+{
+  padding: 15px;
+  font-size: 15px;
+}
+.botgiua
+{
+  padding: 15px;
+  font-size: 15px;
+}
+button.btn3
+{
+  margin-top: 2px;
+  width: 50 px;
+  height: 35px;
+  border: 1px solid green;
+  border-radius: 4px;
+  background-color: white;
+}
+.botphai
+{
+  padding: 15px;
+  font-size: 15px;
+  margin-left: 200px;
+  float: right;
+}
+img.thongbao
+{
+  margin-left: -7px;
+  height: 62px;
+  width: 160px;
+}
+
+.btn-icon
+{
+  margin-left: 15px;
+
+}
+
+/*======San pham co san=====*/
+.sanphamCoSan {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+.samphamCS1 img {
+    width: 270px;
+    height: 270px;
+}
+
+.samphamCS1 {
+    width: 270px;
+    margin-left: 63px;
+}
+
+.samphamCS1-tille {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1d243e;
+    display: block;
+    margin-top: 16px;
+}
+
+.SanPhamcosan {
+    width: 100%;
+    font-size: 24px;
+    color: #ff0000;
+    margin-left: 35px;
+
+}
+
+/*====================*/
+.orderAndcosan {
+    margin-top: 110px;
+}
+
+.viewAllproduct {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: #e6223d;
+}
+
+.allproduct {
+    margin-top: 35px;
+}

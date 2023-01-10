@@ -1,0 +1,225 @@
+body
+{
+    font-size: 14px;
+    color: black;
+    line-height: 1.4;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cabin, sans-serif;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    margin-bottom :10pt;
+}
+
+header {
+    display: flex;
+    padding: 12px 50px;
+    height: 70px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    z-index:9999;
+}
+
+header.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.logo {
+    flex: 1;
+    margin-top: 400pt;
+}
+
+.phaiTren {
+    
+    display: flex;
+    margin-right: 300px;
+    margin-left: 400pt;
+    
+}
+
+.anh {
+    width: 157px;
+    height: 40px;
+    margin-left: 330px;
+    margin-top: 16px;
+}
+
+.Anhlogo {
+    width: 70px;
+    height: 50px;
+    margin-left: 333px;
+}
+.DangNhap {
+    display:block;
+    font-size: 15px; 
+    text-decoration: none;
+    margin-left: 10px;
+    white-space: nowrap;
+    margin-top: 9px;
+    color: black;
+}
+
+.VNhEN{
+    display: block;
+    font-size: 14px;
+    margin-left: 7px;
+    white-space: nowrap;
+    margin-top: 9px;
+}
+.btnGioHang {
+    display:flex;
+    width: 80px;
+    height: 31px;
+    color: green;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: green ;
+    background-color: transparent;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-left: 9px;
+    text-align: center; 
+    line-height: 30px;
+    font-size: small;
+}
+
+.ListTrang {
+    flex: 3;
+    display: flex;
+    margin-top: 200px;
+    margin-right: 400px;
+}
+
+.ListTrang>li {
+    padding: 0 12px;
+}
+
+.bottom
+{
+  display: flex;
+}
+.bottrai
+{
+  padding: 15px;
+  font-size: 15px;
+}
+.botgiua
+{
+  padding: 15px;
+  font-size: 15px;
+}
+button.btn3
+{
+  margin-top: 2px;
+  width: 50 px;
+  height: 35px;
+  border: 1px solid green;
+  border-radius: 4px;
+  background-color: white;
+}
+.botphai
+{
+  padding: 15px;
+  font-size: 15px;
+  margin-left: 200px;
+  float: right;
+}
+img.thongbao
+{
+  margin-left: -7px;
+  height: 62px;
+  width: 160px;
+}
+
+.btn-icon
+{
+  margin-left: 15px;
+
+}
+
+/* Dang Ky Form */
+.DangKy{
+    position: absolute;
+    z-index: 2;
+    border: 2px solid #0C713D;
+    border-radius: 7px;
+    width: 640px;
+    height: 470px;
+    line-height: 3.5;
+    text-align: center;
+    margin-left: 654px;
+    margin-top: -610px;
+    background: #ffffff;
+}
+.container{
+    margin-left: 20pt;
+    margin-top: 65pt;
+}
+.AnhDangKy{
+    width: 150px;
+    height: 90px;
+    margin-left: 35px;
+}
+
+.imgLogin{
+    width: 10pt;
+    height: 10pt;
+    margin-left: 160pt;
+}
+
+.imglogin{
+    width: 100%;
+    
+}
+input[type=text], input[type=password] {
+    width: 440pt;
+    white-space: nowrap;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #0C713D;
+    box-sizing: border-box;
+
+  }
+  
+.BtSubmit {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 13px 119px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 15pt;
+    margin-left: -5pt;
+}
+
+.BtSubmit {
+    background-color: #0C713D; 
+    color: #ffffff; 
+    border: 2px solid #ffffff;
+  }
+
+.BtSubmit:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
